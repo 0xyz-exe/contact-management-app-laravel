@@ -2,6 +2,25 @@
 
 CRM-lite contact management with groups, favorites, and search.
 
+Repository: https://github.com/0xyz-exe/contact-management-app-laravel
+
+## Screenshots
+
+### Contacts Directory
+![Contacts directory](docs/screenshots/01_contacts_index.png)
+
+### Contact Details & Interaction
+![Contact details](docs/screenshots/02_contact_detail.png)
+
+### Create & Edit Contact
+![Create contact](docs/screenshots/03_contact_form.png)
+
+### Group Filtering & Favorites
+![Group filtering](docs/screenshots/04_group_filter.png)
+
+### Authentication
+![Authentication](docs/screenshots/05_login.png)
+
 ## Features
 
 - ✅ Auth (Laravel Breeze)
