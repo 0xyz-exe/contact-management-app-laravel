@@ -3,10 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Models\Contact;
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
 {
+    use AuthorizesRequests;
+
     public function index(Request $request)
     {
         $query = auth()->user()->contacts();

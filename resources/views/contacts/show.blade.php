@@ -20,7 +20,7 @@
             @if($contact->notes)<p><strong>Notes:</strong><br>{{ $contact->notes }}</p>@endif
             <p class="text-xs text-gray-400">Added {{ $contact->created_at->format('M d, Y') }}</p>
             <div class="flex gap-2 pt-2">
-                <form action="{{ route('contacts.favorite', $contact) }}" method="POST"><@csrf<button type="submit" class="text-sm {{ $contact->is_favorite ? 'text-yellow-600' : 'text-gray-500' }} hover:underline">{{ $contact->is_favorite ? 'Remove from Favorites' : 'Add to Favorites' }}</button></form>
+                <form action="{{ route('contacts.favorite', $contact) }}" method="POST">@csrf<button type="submit" class="text-sm {{ $contact->is_favorite ? 'text-yellow-600' : 'text-gray-500' }} hover:underline">{{ $contact->is_favorite ? 'Remove from Favorites' : 'Add to Favorites' }}</button></form>
                 <form action="{{ route('contacts.destroy', $contact) }}" method="POST" class="inline" onsubmit="return confirm('Delete this contact?')">@csrf @method('DELETE')<button type="submit" class="text-sm text-red-600 hover:underline">Delete</button></form>
             </div>
         </div>

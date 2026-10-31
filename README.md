@@ -6,20 +6,12 @@ Repository: https://github.com/0xyz-exe/contact-management-app-laravel
 
 ## Screenshots
 
-### Contacts Directory
-![Contacts directory](docs/screenshots/01_contacts_index.png)
-
-### Contact Details & Interaction
-![Contact details](docs/screenshots/02_contact_detail.png)
-
-### Create & Edit Contact
-![Create contact](docs/screenshots/03_contact_form.png)
-
-### Group Filtering & Favorites
-![Group filtering](docs/screenshots/04_group_filter.png)
-
-### Authentication
-![Authentication](docs/screenshots/05_login.png)
+| Tampilan | Preview |
+|---|---|
+| **Direktori Kontak & Filter Grup/Favorit**<br>Tampilan utama buku alamat dengan layout kartu responsif, indikator bintang kontak favorit, label kategori grup (Work, Family, Friends, Clients), dan filter pencarian instan | ![Direktori Kontak & Filter Grup/Favorit](docs/screenshots/01-dashboard-overview.png) |
+| **Formulir Penambahan Kontak Baru**<br>Formulir pembuatan kontak baru dengan input nama lengkap, email, nomor telepon, afiliasi perusahaan, jabatan profesional, kategori grup, alamat, dan catatan khusus | ![Formulir Penambahan Kontak Baru](docs/screenshots/02-create-contact-form.png) |
+| **Detail Profil & Riwayat Catatan Kontak**<br>Halaman profil komprehensif menampilkan informasi kontak, badge status favorit, rincian alamat domisili/kantor, serta catatan konsultasi | ![Detail Profil & Riwayat Catatan Kontak](docs/screenshots/03-contact-details-view.png) |
+| **Manajemen & Pembaruan Data Kontak**<br>Formulir edit data kontak terisi lengkap (pre-filled) dengan validasi authorization policy per-user dan tombol pembaruan profil terintegrasi | ![Manajemen & Pembaruan Data Kontak](docs/screenshots/04-edit-contact-management.png) |
 
 ## Features
 
